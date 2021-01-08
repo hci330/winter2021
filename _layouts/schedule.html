@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+{% assign everything = site.assignments | concat: site.lectures %}
+{% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
+{% assign labs = site.assignments | where: 'type', 'lab' %}
+{% assign main_listing = site.lectures | concat: labs %}
+<section class="readings">
+{{content}}
+{% assign last_group = 0 %}
+{% for date in dates %}
+    {% assign lecture = main_listing | where: 'due_date', date | last %}
+    {% if lecture.group != last_group and lecture and lecture.group %}
+        {% if last_group != 0 %}
+            </tbody></table>
+        {% endif %}
+        <h2>
+            {% if lecture.group == 1 %}
+                I. Introduction
+            {% elsif lecture.group == 2 %}
+                II. Data Modeling
+            {% elsif lecture.group == 3 %}
+                III. Interfaces & Interactions
+            {% else %}
+                IV. Topics in HCI & AI
+            {% endif %}
+        </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Topic</th>
+                    <th>Readings</th>
+                    <th>Due</th>
+                </tr>
+            </thead>
+            <tbody>
+        {% assign last_group = lecture.group %}
+    {% endif %}
+    <tr>
+        <td>
+            {{ date | date: "%a, %m/%d" }}
+        </td>
+        {% if lecture %}
+            <td>
+                {% assign title = lecture.title %}
+                {% if lecture.type == 'lab' %}
+                    {% assign title = lecture.abbreviation | append: ": " | append: lecture.title %} 
+                {% endif %}
+                {% if lecture.draft == 1 %}
+                    {{ title}}
+                {% else %} 
+                    <a href="{{site.baseurl}}{{lecture.url}}">
+                        {{ title}}
+                    </a>
+                {% endif %}
+            </td>
+            <td>
+                {% if lecture.readings %}
+                    {% assign page = lecture %}
+                    {% include page_readings.html %} 
+                {% endif %}
+            </td>
+        {% else %}
+            <td></td>
+            <td></td>
+        {% endif %}
+        <td>
+            {% assign assignments = site.assignments | where: 'due_date', date %}
+            <!-- {% if assignments.first %}
+                <strong>Due:</strong>
+            {% endif %} -->
+            {% for assignment in assignments %}
+                {% assign title = assignment.abbreviation %}
+                {% if assignment.type == 'homework' or assignment.type == 'project'  %}
+                    {% assign title = assignment.abbreviation | append: ": " | append: assignment.title %} 
+                {% endif %}
+                {% if assignment.draft == 1 %}
+                    {{ title}}
+                {% else %} 
+                    <a href="{{site.baseurl}}{{assignment.url}}">
+                        {{ title}}
+                    </a>
+                {% endif %} 
+            {% endfor %}
+        </td>
+    </tr>
+{% endfor %}
+    </tbody>
+</table>
+</section>
