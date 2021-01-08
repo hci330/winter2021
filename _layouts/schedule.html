@@ -6,11 +6,18 @@ layout: default
 {% assign dates = everything | sort: 'due_date'| map: 'due_date' | uniq %}
 {% assign labs = site.assignments | where: 'type', 'lab' %}
 {% assign main_listing = site.lectures | concat: labs %}
+{% assign dateStart = site.term_start_date | date: '%s' %}
+
 <section class="readings">
 {{content}}
 {% assign last_group = 0 %}
+{% assign last_week = 0 %}
 {% for date in dates %}
     {% assign lecture = main_listing | where: 'due_date', date | last %}
+    {% assign dueDate = date | date: '%s' %}
+    {% assign diffSeconds = dueDate | minus: dateStart %}
+    {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
+    {% assign week = diffDays | divided_by: 7 | plus: 1 %}
     {% if lecture.group != last_group and lecture and lecture.group %}
         {% if last_group != 0 %}
             </tbody></table>
@@ -29,6 +36,7 @@ layout: default
         <table>
             <thead>
                 <tr>
+                    <th></th>
                     <th>Date</th>
                     <th>Topic</th>
                     <th>Readings</th>
@@ -39,6 +47,12 @@ layout: default
         {% assign last_group = lecture.group %}
     {% endif %}
     <tr>
+        {% if week != last_week %}
+            <td><h3>Week {{week}}</h3></td>
+            {% assign last_week = week %}
+        {% else %}
+            <td></td>
+        {% endif %}
         <td>
             {{ date | date: "%a, %m/%d" }}
         </td>

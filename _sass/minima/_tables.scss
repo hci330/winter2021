@@ -163,20 +163,25 @@ table.rubric {
             }
         }
         td:nth-child(1) {
+            min-width: 80px;
+            max-width: 80px;
+            width: 80px;
+        }
+        td:nth-child(2) {
             min-width: 100px;
             max-width: 100px;
             width: 100px;
         }
-        td:nth-child(2), th:nth-child(2) {
-            min-width: 280px;
-            max-width: 280px;
-            width: 280px;
+        td:nth-child(3), th:nth-child(3) {
+            min-width: 220px;
+            max-width: 220px;
+            width: 220px;
             margin-right: 10px;
         }
-        td:nth-child(3), th:nth-child(3) {
-            padding-right: 50px;
-        }
-        td:nth-child(4), th:nth-child(4) {
+        // td:nth-child(4), th:nth-child(4) {
+        //     padding-right: 50px;
+        // }
+        td:nth-child(5), th:nth-child(5) {
             min-width: 140px;
             max-width: 140px;
             width: 140px;
