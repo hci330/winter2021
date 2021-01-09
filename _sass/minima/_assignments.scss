@@ -285,7 +285,7 @@ blockquote.quote {
             // second-level:
             li::before {
                 content: "\25AA";
-                color: $orange;
+                color: #CCC;
             }
         }
     }
@@ -297,7 +297,7 @@ blockquote.quote {
         font-family:"Campton Extra Light";
         // color: $lightpurple;
         // font-size: 1.5em;
-        font-size: 1.2em;
+        font-size: 1.3em;
         margin-bottom: 0px;
     }
 }

@@ -86,17 +86,15 @@ layout: default
                 <strong>Due:</strong>
             {% endif %} -->
             {% for assignment in assignments %}
-                {% assign title = assignment.abbreviation %}
-                {% if assignment.type == 'homework' or assignment.type == 'project'  %}
-                    {% assign title = assignment.abbreviation | append: ": " | append: assignment.title %} 
-                {% endif %}
-                {% if assignment.draft == 1 %}
-                    {{ title}}
+                
+
+                {% if assignment.type == 'lab' %}
+                    ({{ assignment.abbreviation }})
+                {% elsif assignment.draft == 1 %}
+                    {{ assignment.abbreviation }}: {{ assignment.title}}
                 {% else %} 
-                    <a href="{{site.baseurl}}{{assignment.url}}">
-                        {{ title}}
-                    </a>
-                {% endif %} 
+                    <a href="{{site.baseurl}}{{assignment.url}}">{{ assignment.abbreviation }}: {{assignment.title}}</a>  
+                {% endif %}
             {% endfor %}
         </td>
     </tr>

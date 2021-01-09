@@ -35,6 +35,8 @@ exclude:
 timezone: "America/Chicago"
 # Build settings
 markdown: kramdown
+kramdown:
+  auto_id_prefix: hci
 theme: minima
 plugins:
   - jekyll-feed
