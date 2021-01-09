@@ -61,7 +61,12 @@ We will use databases stored in this cluster in upcoming labs and homework assig
 
 ### Connecting Your Database to Flask
 
+TODO: 
+* Teach students how to get their DB Connection string
+* Teach them to never include their password in their Repo
+
 ### Testing Your Web App
+TODO: Install postman
 
 ## 3. Creating Your GitHub Repo
 
