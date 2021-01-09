@@ -40,7 +40,7 @@ Click on Build a Cluster. Select the free options on the next page.
 
 Do not change anything on this page and proceed to create a cluster. It might take several minutes so grab some coffee and relax.
 
-#### C. Create a Database Users 
+#### C. Create a Database User
 Next, set up a user and password that will be used by your web applications to access the database.
 
 <img class="large frame" src="/winter2021/assets/images/lab01/ss3.png" />
