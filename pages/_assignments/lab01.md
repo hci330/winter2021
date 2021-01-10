@@ -60,7 +60,9 @@ We will use databases stored in this cluster in upcoming labs and homework assig
 
 {:#step2}
 ## II. Set Up a Local Python Web Server
-Download the `cs330-web-server` zip file, unzip it, and move this folder to a place where you regularly save files for coursework (stay organized -- you'll be working with a lot of files in this class). 
+<a class="nu-button" href="/winter2021/course-files/assignments/cs330-web-server.zip">cs330-web-server.zip <i class="fas fa-download" aria-hidden="true"></i></a>
+
+Download the `cs330-web-server.zip` file, unzip it, and move this folder to a place where you regularly save files for coursework (stay organized -- you'll be working with a lot of files in this class). 
 
 **IMPORTANT**: please don't save your `cs330-web-server` folder inside of a folder which is already being managed by git. You will eventually be creating a new git repo to manage and deploy your cs330-web-server code, and having nested git repositories is discouraged.
 

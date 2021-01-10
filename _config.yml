@@ -30,7 +30,7 @@ github_username:  jekyll
 exclude:
   - _lectures/drafts
   - _assignments/drafts
-  - course-files
+  # - course-files
 
 timezone: "America/Chicago"
 # Build settings
