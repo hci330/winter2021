@@ -25,11 +25,9 @@ That said, HCI extends beyond designing and building new technologies. In fact, 
 ## About This Course
 In this course (MSAI Edition), we will focus on HCI principles as they relate to data intensive systems. We will do this from the perspective of three roles that you may take on in your future work as AI experts:
 
-* ***The data practitioner***: Someone who thinks about how data resources are designed and utilized to support critical user interactions.
-* ***The interface designer***: Someone who considers how user interactions ought to be designed to support various use cases -- so that the system has value to the people who use it.
-* ***The manager***: Someone who thinks about the 'big picture' -- how all of the pieces fit together, the value propositions offered by the system, and the economic, social, and ethical dimensions of the system architecture. 
-
-In other words, in this class, we asking you to be philosophers as well as engineers.
+* ***The data practitioner*** -- someone who thinks about how data resources are designed and utilized to support critical user interactions.
+* ***The interface designer*** -- someone who considers how user interactions ought to be designed to support various use cases, so that the system has value to the people who use it.
+* ***The manager*** -- someone who thinks about the 'big picture,' including how all of the pieces fit together, the value propositions offered by the system, and the economic, social, and ethical dimensions of the system architecture. 
 
 ### Tentative Schedule
 This is a new version of CS330, which is intended to be tailored to MSAI students and students who are interested in the social and human aspects of AI systems. As such, many of these lectures, readings, and labs are subject to change based on your experiences and feedback. It is your responsibility to keep up with the course and any schedule changes. The course is divided into three units: (1) data, (2) user interfaces, and (3) special topics in HCI/AI. 
