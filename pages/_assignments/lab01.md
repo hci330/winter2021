@@ -3,7 +3,7 @@ layout: assignment-two-column
 title: Configure Your Software Stack
 type: lab
 abbreviation: Lab 1
-draft: 0
+draft: 1
 num: 1
 description: |
     Setup MongoDB, Flask, GitHub
@@ -11,7 +11,7 @@ due_date: 2021-01-15
 ---
 One of the goals of the course is to help you to analyze the **human dimensions** of data-intensive computing applications. To do this, each of you will set up a 'full stack' application -- to practice (1) thinking through design decisions at different parts of your system, and (2) how the different pieces of a data-intensive system function as a whole. 
 
-While this is not a software engineering or programming course, you will nonetheless be examining and writing code to instantiate particular design principles. Moreover, given that you will be creating a final project prototype, we hope that these labs will be useful for helping you build your final project prototypes. 
+While this is not a software engineering or programming course, you will nonetheless be examining and writing code to instantiate particular design principles. Moreover, given that you will be creating a final project prototype, we hope that these labs will be useful for helping you get familiar with some relevant software tools and techniques.
 
 In today's lab, you will be completing the 3 steps below. Please note that configuring your laptop and getting all of the pieces to work together can be frustrating and time consuming. We're here to help, and want to ensure that everyone is successful. This lab is not meant to be evaluative -- it's meant to help you get familiar with a set of tools which are widely used in industry. If there's anything that you don't understand, we can explain it to you or point you to more resources.
 
