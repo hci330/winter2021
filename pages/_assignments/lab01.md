@@ -216,7 +216,7 @@ Please verify that you have completed all of the steps, and then submit your wor
 {:.checkbox-list}
 * App Configuration
    * You can run it locally (this works when you're running Flask: http://127.0.0.1:5000/)
-   * The command listed in section II.4. ("test your web app") successfully create, read, update, and delete (CRUD) resources in your MongoDB database.
+   * The command listed in the "test your web app" section work (you can successfully create and read resources in your MongoDB database.
 * GitHub Configuration
    * Your files have been committed and pushed to GitHub
    * You have taken care to not include your database password in your repo by creating a local, hidden file, `.env` that is excluded from your GitHub repo in the `.gitignore` file.
