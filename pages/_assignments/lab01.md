@@ -216,10 +216,10 @@ Please verify that you have completed all of the steps, and then submit your wor
 {:.checkbox-list}
 * App Configuration
    * You can run it locally (this works when you're running Flask: http://127.0.0.1:5000/)
-   * The command listed in the "test your web app" section work (you can successfully create and read resources in your MongoDB database.
+   * The commands listed in the "test your web app" section work (you can successfully create and read resources in your MongoDB database).
 * GitHub Configuration
    * Your files have been committed and pushed to GitHub
    * You have taken care to not include your database password in your repo by creating a local, hidden file, `.env` that is excluded from your GitHub repo in the `.gitignore` file.
 
 ### 2. Submit to Canvas
-When you are sure you have completed everything, please submit the link to your cs330-web-server code.
+When you are sure you have completed everything, please submit the link to your GitHub cs330-web-server repository.
