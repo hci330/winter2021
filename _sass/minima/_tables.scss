@@ -51,6 +51,16 @@ table {
     }
 }
 
+table.overview {
+    border-top: dotted 1px #CCC;
+    border-bottom: dotted 1px #CCC;
+    thead tr:first-child {
+        th, td {
+            border-bottom: dotted 1px #CCC;
+            width: 33%;
+        }
+    }
+}
 
 table.schedule-simple {
     border-width: 0px;

@@ -6,9 +6,6 @@ show_schedule: 1
 
 {{content}}
 
-<h2 id="do-now">Please Complete the Following Tasks</h2>
-{% assign num = 1 %}
-
 {% if page.exercise_url %}
     <h3 id="code">{{num}}. Download the Exercise Files</h3> 
     <a class="nu-button" href="{{site.baseurl}}/course-files/lectures/{{page.exercise_url}}" target="_blank">
@@ -17,7 +14,7 @@ show_schedule: 1
     {% assign num = num | plus: 1 %}
 {% endif %}
 
-<h3 id="slides">{{num}}. Review the Slides</h3>  
+<h3 id="slides">Slides</h3>  
 {% assign num = num | plus: 1 %}
 {% if page.slides %}
     <ol>
@@ -32,7 +29,7 @@ show_schedule: 1
 {% endif %}
 
 {% if page.videos %}
-<h3 id="videos">{{num}}. Watch the Lecture Video(s)</h3>
+<h3 id="videos">Lecture Video(s)</h3>
 {% assign num = num | plus: 1 %}
 
     <table class="medium module">
@@ -76,23 +73,8 @@ show_schedule: 1
 {% endif %}
 
 {% if page.readings %}
-    <h3 id="readings">{{ num }}. Review / Study the Supplemental Materials</h3>
-    <p>
-        Note: these readings / videos are suggested for additional context / 
-        examples, but not required.
-    </p>
+    <h3 id="readings">Readings</h3>
     {% include page_readings.html %} 
-    {% assign num = num | plus: 1 %}
-{% endif %}
-
-{% if page.quiz_url %}
-    <h3 id="quiz">{{ num }}. Take the Quiz</h3>
-    <p>
-        Note: The quiz is to help you test your own understanding 
-        of the concepts. It is not graded, but it helps us understand 
-        how you're progressing through the course.
-    </p>
-    {{page.quiz_url}}
     {% assign num = num | plus: 1 %}
 {% endif %}
 

@@ -1,10 +1,9 @@
 EXCLUDED = [
-    # 'projects',
-    # 'homework',
-    # 'lectures',
+    # 'assignments',
+    'demos',
     'exams',
+    'build',
     'administrative'
-    #'practice_exams',
     'tutorials',
     'build.sh',
     'zip_it.py',
@@ -17,11 +16,11 @@ EXCLUDED = [
     '_drafts',
     'solutions',
     'cpd.db',
-    'build',
     '__pycache__',
     '.ipynb_checkpoints',
     '.DS_Store',
     # 'images',
     '_site',
-    '.vscode'
+    '.vscode',
+    '.env'
 ]

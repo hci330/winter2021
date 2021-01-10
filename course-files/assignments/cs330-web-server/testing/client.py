@@ -20,5 +20,7 @@ def get_posts():
     resp = requests.get(url, headers=headers)
     print(resp.text)
 
+
+# Uncomment to test:
 # create_post()
 # get_posts()

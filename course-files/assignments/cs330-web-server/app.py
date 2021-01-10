@@ -4,6 +4,7 @@ export FLASK_APP=app.py
 export FLASK_ENV=development
 flask run
 '''
+
 from flask import Flask, request, Response
 import db
 from views import posts, comments
