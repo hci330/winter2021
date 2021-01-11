@@ -6,7 +6,7 @@ description:
     - How long do you want to repeat it?
     - What changes each time (optional)?
 type: lecture
-draft: 0
+draft: 1
 num: 11
 due_date: 2021-02-08
 

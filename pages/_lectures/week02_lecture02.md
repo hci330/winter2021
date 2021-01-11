@@ -1,10 +1,10 @@
 ---
 layout: module
 title: |
-    HCI: Past & Future
+    Intro to HCI
 type: lecture
 num: 2
-draft: 0
+draft: 1
 group: 1
 due_date: 2021-01-13
 # slides:

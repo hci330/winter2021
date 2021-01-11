@@ -13,27 +13,27 @@ permalink: /syllabus/
 | **Lecture Location** | Online (for now) |
 
 ## What is HCI?
-Human computer interaction (HCI) is a broad, interdisciplinary field that studys how people and computers interact in the world. These interactions can be examined at various scales -- from fine-grained user experiences, to the ways in which computing shapes (and is shaped by) individuals, institutions, and society. 
+Human computer interaction (HCI) is a broad, interdisciplinary field that studies how people and computers interact in the world. These interactions can be studied at the individual scale (e.g. how intuitive an app or website is to a particular user) or in relation to larger social / cultural phenomena (e.g. how social media influences the way people shop, communicate, or access information).
 
-HCI draws on knowledge and expertise from many different disciplines and domains (e.g. computer science, engineering, the social sciences and humanities, and many more).  Within computer science, HCI tends to focus on how to design and build useful technologies that solve problems and enable new possibilities, given a domain and a problem space. This involves:
+HCI draws on knowledge and expertise from many different disciplines and domains (e.g. computer science, engineering, the social sciences and humanities, and more).  Within computer science, HCI tends to focus on how to design and build useful technologies that solve problems and enable new possibilities, given a domain and a problem space. This involves:
 
-* ***data considerations*** -- to consider how and why data are constructed from real-world phenomena, the strengths and limitations of particular models, and whether and how particular data methods and techniques are appropriate for a given real-world application.
-* ***design considerations*** -- to understand the problem space and user needs; apply research-informed methods and principles for designing accessible, intuitive, and useful interfaces; and explore how emerging technologies could be applied in novel ways. 
+* ***data considerations*** -- how and why data are constructed from real-world phenomena, the strengths and limitations of particular models, and the conditions that must be satisfied in order for a model to function in a particular context.
+* ***design considerations*** -- understanding the problem space and user needs; applying research-informed methods and principles for designing accessible, intuitive, and useful interfaces; and exploring how emerging technologies could be applied in novel ways. 
 
-That said, HCI extends beyond designing and building new technologies. In fact, much of HCI involves taking stock of how computing infrastructures interact with individuals, institutions, and society more broadly across a wide range of human experiences (relationships, mental health and wellness, politics, fairness and accountability, sustainability, and so forth). In other words, describing, reflecting, critiquing, and debating the role of computing in society are also integral components of HCI (in addition to designing and building interfaces).
+HCI also extends beyond designing and building new technologies. In fact, much of HCI involves taking stock of how computing infrastructures interact with individuals, institutions, and society more broadly -- across a wide range of human experiences (relationships, mental health and wellness, politics, fairness and accountability, sustainability, and so forth). In other words, describing, reflecting, critiquing, and debating the role of computing in society is also an integral part of the HCI discipline (in addition to designing and building interfaces).
 
 ## About This Course
-In this course (MSAI Edition), we will focus on HCI principles as they relate to data intensive systems. We will do this from the perspective of three roles that you may take on in your future work as AI experts:
+In this course (MSAI Edition), we will focus on HCI principles as they relate to three different AI-related roles:
 
 * ***The data practitioner*** -- someone who thinks about how data resources are designed and utilized to support critical user interactions.
 * ***The interface designer*** -- someone who considers how user interactions ought to be designed to support various use cases, so that the system has value to the people who use it.
-* ***The manager*** -- someone who thinks about the 'big picture,' including how all of the pieces fit together, the value propositions offered by the system, and the economic, social, and ethical dimensions of the system architecture. 
+* ***The manager*** -- someone who thinks about the "big picture" of a data-intensive system, including how all of the pieces fit together, the value propositions offered by the system, and the economic, social, and ethical dimensions of the system architecture. 
 
 ### Tentative Schedule
-This is a new version of CS330, which is intended to be tailored to MSAI students and students who are interested in the social and human aspects of AI systems. As such, many of these lectures, readings, and labs are subject to change based on your experiences and feedback. It is your responsibility to keep up with the course and any schedule changes. The course is divided into three units: (1) data, (2) user interfaces, and (3) special topics in HCI/AI. 
+As the roles above suggest, this course is divided into three units -- data, user interfaces, and special topics in HCI/AI. Because this is a new version of CS330, intended to be tailored to MSAI students, many of these lectures, readings, and labs are subject to change based on your experiences and feedback. It is your responsibility to keep up with the course and any schedule changes. 
 
-#### 1. Data
-In the first unit, we will focus on some of the human aspects of working with data: what it represents, how it's made, and what interactions it supports. 
+#### Unit 1. Data
+In the data unit, we will focus on some of the human aspects of working with data: how to represent resources as data, and how data resources support particular kinds of interactions. We will also draw on some ideas from critical data studies to think about the biases and unintended consequences of representing the world as data in particular ways.
 
 <table class="overview">
     <thead>
@@ -74,7 +74,9 @@ In the first unit, we will focus on some of the human aspects of working with da
 </table>
 
 
-#### 2. User Interfaces
+#### Unit 2. User Interfaces
+In the interfaces unit, we will explore some "classic" interface topics by considering how to design usable, visually pleasing, accessible, and useful interfaces. This will involve learning some design principles and methods, and also learning some basics of "front-end" technologies:
+
 <table class="overview">
     <thead>
         <tr>
@@ -98,7 +100,7 @@ In the first unit, we will focus on some of the human aspects of working with da
                     <li>Prototyping</li>
                     <li>User testing</li>
                     <li>Heuristic evaluation</li>
-                    <li>Measuring Success</li>
+                    <li>Measuring success</li>
                 </ul>
             </td>
             <td>
@@ -114,36 +116,40 @@ In the first unit, we will focus on some of the human aspects of working with da
     </tbody>
 </table>
 
-#### 3. Special Topics in HCI/AI
-What kinds of new possibilities and challenges do ML and AI introduce?
+#### Unit 3. Special Topics in HCI/AI
+Finally, in the special topics unit, we will explore a series of questions, which include (but are not limited to): 
+* Given that big data, machine learning, and AI have already had a huge impact in the world, how do we think about these impacts in terms of benefits, harms, and potential risks? 
+* How can we design for productive AI-human collaborations?
+* How do recommendation systems work, and what can go wrong?
+* How should we think about trust and accountability in ML and AI sytems?
 
-* Explainable / Interpretable ML (including how ppl understand uncertainty)
+To answer these questions, we will read and discuss research papers and industry projects related to the following topics (this list is subject to revision):
+
+* Explainable / Interpretable ML
 * Recommendation systems
-* Continual learning models: https://ojs.aaai.org//index.php/aimagazine/article/view/2513
-* “Mixed Initiative” Human Systems
-* Interactive ML
+* Continual learning models
+* "Mixed Initiative" Human Systems
 * Human Computation & Crowdsourcing
+* Privacy
 * Fairness, bias, ethics, & power
 
+## Course Format
+### 1. Team Project
+The heart of this course is a quarter-long project. You will work in teams to design and test a novel user interface around and idea of your team's choosing. 
 
-### Coursework
-#### 1. Team Project
-The heart of this course is a quarter-long project. You will work in teams to design and test a novel user interface around and idea of your team's choosing. App design is an iterative process; you will build and test successively higher-fidelity prototypes over the quarter. Students who are not registered for course credit may not participate in the project.
+### 2. Individual Homework Assignments
+You will also work on individual homework assignments throughout the quarter. These assignments will vary -- some will be coding assignments to get you familiar with different technologies and design methods. Some will be written assignments that will ask you to analyze existing systems or examine a series of case studies. All of these assignments are intended to help you develop your thinking about design decisions and their tradeoffs. 
 
-#### 2. Individual Homework Assignments
-You will also work on individual homework assignments throughout the quarter. These assignments will be pretty varied -- some will be coding assignments to get you familiar with different technologies and design methods. Some will be written assignments that will ask you to analyze existing systems or examine a series of case studies. All of these assignments are intended to help you develop your thinking about design decisions and their tradeoffs. 
+### 3. Lectures & Discussions
+Lectures and readings discussions will take place every Monday and Wednesday online. We will use classroom discussion as a form of collaborative sense-making to understand, critique, and interrogate the readings and principles we are learning about. Your timely and engaged attendance at every class is thus very important – both for you and for your classmates. 
 
-#### 3. Lectures
-I have selected course readings to deepen and expand your understanding of HCI fundamentals beyond what we cover in lecture. You are ex
+### 4. Weekly Labs
+On Fridays, you will be completing labs. Some of the labs will help you install, configure, and build a 'full stack web application.' Other labs will involve designing, building, and testing versions of your final project. Lab attendance is required, but you may miss one lab without a grade penalty.
 
-#### 4. Weekly Labs
-On Fridays, you will be doing short activities and tutorials in your lab section. Some of the labs will help you install, configure, and build a 'full stack web application.' Other labs will involve designing, building, and testing versions of your final project. Lab attendance is required, but you may miss one lab without a grade penalty.
+### 5. Readings
+I have selected course readings to deepen and expand your understanding of HCI fundamentals beyond what we cover in lecture. Readings should be done before class on the day they are assigned, and you will be expected to apply the principles and ideas from the readings to your homework and final project prototypes.
 
-#### 5. Readings
-I have selected course readings to deepen and expand your understanding of HCI fundamentals beyond what we cover in lecture. You are ex....
-
-### Expectations
-#### Engagement
+## Expectations
 * You will come to class prepared and ready to engage in an intellectual discussion about the readings and labs.
 * You will complete all assignments on time and with interest, engagement, and intellectual curiosity.
 * You will be strong contributor to your team when doing group work.
@@ -152,16 +158,22 @@ I have selected course readings to deepen and expand your understanding of HCI f
 * You will give your classmates the benefit of the doubt (about their competence and intentions) and can expect the same from them.
 * All work that you submit will be your own original work; you will cite others’ work where appropriate.
 
-#### Assessment
-Your course grade is calculated based on 200 points as follows:
+## Grading
+Your final grade will be assessed as follows:
 
-{:.medium}
-| **2 Projects** | 2 x 40 Points | 80 Points | 40% |
-| **2 Quizzes** (of 3) | 2 x 30 Points (lowest score dropped) | 60 Points | 30% |
-| **5 Homeworks** (of 6) | 5 x 8 Points (lowest score dropped) | 40 Points | 20% |
-| **7 Tutorials** (of 9) | 7 x ~3 Points (lowest scores dropped) | 20 Points | 10% |
-| | | **200 Points** | **100%** |
+### 40% -- Homework
+You will have between 4 and 5 homework assignments that will each be worth roughly 10% of your grade.
 
+### 40% -- Team Project Work
+You will also have a series of 5-6 project deliverables relating to your final project that will each be worth roughly 5-10% of your grade (depending on the deliverable).
+
+### 20% -- Participation
+Your participation grade will be based on:
+* Evidence that you have completed the readings, as reflected through your in-class participation.
+* Your engagement during labs, which includes the quality of your lab submissions and your lab attendance. You may miss one lab without a grade penalty.
+
+
+### Other Grading Logistics
 Final grades are assigned on a fixed scale: 93-100 is 
 an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 
@@ -169,13 +181,7 @@ an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 1. We will not be using the final exam time for this class.
 
 ## Getting Questions Answered
-We hope
-
-### Office Hours
-Office hours and locations / Zoom links are posted <a href="{{site.baseurl}}/times-locations/">here</a>. See the course Canvas page for the Zoom password.
-
-
-
+We love questions and we hope that you will feel comfortable asking questions about the readings, homework, labs, projects, or anything else related to the course. KJ and I will be posting our office hours by the end of the week.
 
 ## A Note on Class Recordings
 The Provost's office has asked instructors to publish the following language in the syllabus:
