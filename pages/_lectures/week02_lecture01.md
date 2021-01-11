@@ -9,6 +9,10 @@ description:
     - Intro to the course
 due_date: 2021-01-11
 show_schedule: 1
+readings:
+  - url: /winter2021/syllabus/
+    title: "Course Syllabus"
+    notes: Please read through the syllabus
 # slides:
 #    - url: ""
 #      title: Course Logistics
