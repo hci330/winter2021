@@ -1,10 +1,6 @@
 ---
 layout: module
-title: "Accessibility"
-description:
-    - What do you want to repeat?
-    - How long do you want to repeat it?
-    - What changes each time (optional)?
+title: "Usability: Part 1"
 type: lecture
 draft: 1
 num: 11

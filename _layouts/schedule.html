@@ -64,7 +64,11 @@ layout: default
                     {% assign className = "lab" %}
                 {% endif %}
                 {% if lecture.draft == 1 %}
-                    <h4>{{ lecture.title}}</h4>
+                    <h4>
+                        {% if lecture.type == 'lab' %}
+                            {{prefix}}:
+                        {% endif %}
+                        {{ lecture.title}}</h4>
                 {% else %} 
                     <h4>
                         <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
