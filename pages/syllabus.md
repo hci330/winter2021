@@ -152,7 +152,7 @@ I have selected course readings to deepen and expand your understanding of HCI f
 ## Expectations
 * You will come to class prepared and ready to engage in an intellectual discussion about the readings and labs.
 * You will complete all assignments on time and with interest, engagement, and intellectual curiosity.
-* You will be strong contributor to your team when doing group work.
+* You will be a strong contributor to your team when doing group work.
 * You will bring your unique expertise, perspectives, and experiences to class and share them with others, so that we might all gain from your perspectives.
 * You will respect and seek to understand the unique perspectives and experiences of others.
 * You will give your classmates the benefit of the doubt (about their competence and intentions) and can expect the same from them.
