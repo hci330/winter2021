@@ -20,7 +20,7 @@ HCI draws on knowledge and expertise from many different disciplines and domains
 * ***data considerations*** -- how and why data are constructed from real-world phenomena, the strengths and limitations of particular models, and the conditions that must be satisfied in order for a model to function in a particular context.
 * ***design considerations*** -- understanding the problem space and user needs; applying research-informed methods and principles for designing accessible, intuitive, and useful interfaces; and exploring how emerging technologies could be applied in novel ways. 
 
-HCI also extends beyond designing and building new technologies. In fact, much of HCI involves taking stock of how computing infrastructures interact with individuals, institutions, and society more broadly -- across a wide range of human experiences (relationships, mental health and wellness, politics, fairness and accountability, sustainability, and so forth). In other words, describing, reflecting, critiquing, and debating the role of computing in society is also an integral part of the HCI discipline (in addition to designing and building interfaces).
+HCI also extends beyond designing and building new technologies. In fact, much of HCI involves taking stock of how computing infrastructures interact with individuals, institutions, and society more broadly -- across a wide range of human experiences (relationships, mental health and wellness, politics, fairness and accountability, sustainability, and so forth). In other words, describing, reflecting, critiquing, and debating the role of computing in society is also an integral part of the HCI discipline.
 
 ## About This Course
 In this course (MSAI Edition), we will focus on HCI principles as they relate to three different AI-related roles:
@@ -30,10 +30,10 @@ In this course (MSAI Edition), we will focus on HCI principles as they relate to
 * ***The manager*** -- someone who thinks about the "big picture" of a data-intensive system, including how all of the pieces fit together, the value propositions offered by the system, and the economic, social, and ethical dimensions of the system architecture. 
 
 ### Tentative Schedule
-As the roles above suggest, this course is divided into three units -- data, user interfaces, and special topics in HCI/AI. Because this is a new version of CS330, intended to be tailored to MSAI students, many of these lectures, readings, and labs are subject to change based on your experiences and feedback. It is your responsibility to keep up with the course and any schedule changes. 
+As the roles above suggest, this course is divided into three units -- data, user interfaces, and special topics and applications in HCI/AI. Because this is a new version of CS330, intended to be tailored to MSAI students, many of these lectures, readings, and labs are subject to change based on your experiences and feedback. It is your responsibility to keep up with the course and any schedule changes. 
 
 #### Unit 1. Data
-In the data unit, we will focus on some of the human aspects of working with data: how to represent resources as data, and how data resources support particular kinds of interactions. We will also draw on some ideas from critical data studies to think about the biases and unintended consequences of representing the world as data in particular ways.
+In the data unit, we will focus on some of the human aspects of working with data: how to identify and represent resources as data, and how data resources support particular kinds of interactions. We will also draw on some ideas from critical data studies to think about the biases and unintended consequences of representing the world as data in particular ways.
 
 <table class="overview">
     <thead>
@@ -116,12 +116,12 @@ In the interfaces unit, we will explore some "classic" interface topics by consi
     </tbody>
 </table>
 
-#### Unit 3. Special Topics in HCI/AI
+#### Unit 3. Special Topics & Applications in HCI/AI
 Finally, in the special topics unit, we will explore a series of questions, which include (but are not limited to): 
 * Given that big data, machine learning, and AI have already had a huge impact in the world, how do we think about these impacts in terms of benefits, harms, and potential risks? 
 * How can we design for productive AI-human collaborations?
+* How should we think about trust and accountability in ML and AI systems?
 * How do recommendation systems work, and what can go wrong?
-* How should we think about trust and accountability in ML and AI sytems?
 
 To answer these questions, we will read and discuss research papers and industry projects related to the following topics (this list is subject to revision):
 
@@ -141,7 +141,7 @@ The heart of this course is a quarter-long project. You will work in teams to de
 You will also work on individual homework assignments throughout the quarter. These assignments will vary -- some will be coding assignments to get you familiar with different technologies and design methods. Some will be written assignments that will ask you to analyze existing systems or examine a series of case studies. All of these assignments are intended to help you develop your thinking about design decisions and their tradeoffs. 
 
 ### 3. Lectures & Discussions
-Lectures and readings discussions will take place every Monday and Wednesday online. We will use classroom discussion as a form of collaborative sense-making to understand, critique, and interrogate the readings and principles we are learning about. Your timely and engaged attendance at every class is thus very important – both for you and for your classmates. 
+Lectures and discussions will take place every Monday and Wednesday online. We will use classroom discussion as a form of collaborative sensemaking to understand, critique, and interrogate the readings and principles we are learning about. Your timely and engaged attendance at every class is thus very important – both for you and for your classmates. 
 
 ### 4. Weekly Labs
 On Fridays, you will be completing labs. Some of the labs will help you install, configure, and build a 'full stack web application.' Other labs will involve designing, building, and testing versions of your final project. Lab attendance is required, but you may miss one lab without a grade penalty.

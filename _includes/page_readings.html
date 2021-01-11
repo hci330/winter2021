@@ -1,5 +1,7 @@
 {% assign optional = 0 %}
-<!-- <h3>Required</h3> -->
+{% comment %}
+<h3>Required</h3>
+{% endcomment %}
 <ul class="readings">
 {% for item in page.readings %}
     {% if item.optional == 1 %}

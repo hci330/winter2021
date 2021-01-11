@@ -13,14 +13,12 @@ readings:
   - url: /winter2021/syllabus/
     title: "Course Syllabus"
     notes: Please read through the syllabus
-# slides:
-#    - url: ""
-#      title: Course Logistics
+    internal: 1
+slides:
+   - url: https://docs.google.com/presentation/d/1MUuxwnNKYgK51gEBqvPfE4LkEHmS42NekMokLc0Pqf8/edit?usp=sharing
+     title: Course Logistics
 
 ---
 
 ## Welcome
-Welcome to the course! Hopefully the last COVID-19 edition. We'll all be figuring this online situation out together -- let's help each other stay engaged, motivated, productive, and healthy! 
-
-* Please see the syllabus for an outline of the course.
-* Please complete the pre-course questionnaire by tonight (1/11)! https://forms.gle/DH1nrom1UmnBQVmb9
+Welcome to the course! Hopefully the last COVID-19 edition. We'll all be figuring this online situation out together -- let's help each other stay engaged, motivated, productive, and healthy! Please fill out the [introductory survey](https://forms.gle/DXivoQC1uqgUdZy77) by tonight.
