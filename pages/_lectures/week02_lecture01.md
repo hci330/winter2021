@@ -3,7 +3,7 @@ layout: module
 title: Introduction & Course Logistics
 type: lecture
 num: 1
-draft: 1
+draft: 0
 group: 1
 description:
     - Intro to the course
