@@ -14,7 +14,7 @@ show_schedule: 1
     {% assign num = num | plus: 1 %}
 {% endif %}
 
-<h3 id="slides">Slides</h3>  
+<h2 id="slides">Slides</h2>  
 {% assign num = num | plus: 1 %}
 {% if page.slides %}
     <ol>
@@ -29,7 +29,7 @@ show_schedule: 1
 {% endif %}
 
 {% if page.videos %}
-<h3 id="videos">Lecture Video(s)</h3>
+<h2 id="videos">Lecture Video(s)</h2>
 {% assign num = num | plus: 1 %}
 
     <table class="medium module">
@@ -78,35 +78,6 @@ show_schedule: 1
     {% assign num = num | plus: 1 %}
 {% endif %}
 
-{% if page.extras %}
-    <h3 id="reminders">{{ num }}. Reminders</h3>
-    <table class="medium">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Action Item</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for extra in page.extras %}
-        <tr>
-            <td>
-                {{extra.due_date}}
-                {% if extra.due_date_note %}
-                <br>({{ extra.due_date_note }})
-                {% endif %}
-            </td>
-            <td>
-                {{extra.comments}}
-                {% if extra.url %}
-                    <br><a href="{{extra.url}}">{{extra.title}}</a>
-                {% endif %}
-            </td>
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-{% endif %}
 
 {% if page.include_page %}
     {% capture my_include %}{% include_relative {{ page.include_page }} %}{% endcapture %}
