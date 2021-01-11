@@ -38,8 +38,7 @@ layout: default
                 <tr>
                     <th></th>
                     <th>Date</th>
-                    <th>Topic</th>
-                    <th>Readings</th>
+                    <th>Topic & Readings</th>
                     <th>Due</th>
                 </tr>
             </thead>
@@ -58,27 +57,33 @@ layout: default
         </td>
         {% if lecture %}
             <td>
-                {% assign title = lecture.title %}
+                {% assign prefix = "Lesson " | append: lecture.num %}
+                {% assign className = "lec" %}
                 {% if lecture.type == 'lab' %}
-                    {% assign title = lecture.abbreviation | append: ": " | append: lecture.title %} 
+                    {% assign prefix = lecture.abbreviation %}
+                    {% assign className = "lab" %}
                 {% endif %}
                 {% if lecture.draft == 1 %}
-                    {{ title}}
+                    <h4>{{ lecture.title}}</h4>
                 {% else %} 
-                    <a href="{{site.baseurl}}{{lecture.url}}">
-                        {{ title}}
-                    </a>
+                    <h4>
+                        <a class="{{ className }}" href="{{site.baseurl}}{{lecture.url}}">
+                            {{ prefix }} <i class="fa fa-link"></i>
+                        </a>
+                        {{ lecture.title}}
+                    </h4>
                 {% endif %}
-            </td>
-            <td>
+
                 {% if lecture.readings %}
                     {% assign page = lecture %}
                     {% include page_readings.html %} 
                 {% endif %}
             </td>
+            <!-- <td>
+            </td> -->
         {% else %}
             <td></td>
-            <td></td>
+            <!-- <td></td> -->
         {% endif %}
         <td>
             {% assign assignments = site.assignments | where: 'due_date', date %}
