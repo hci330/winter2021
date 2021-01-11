@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/winter2021"
 term_start_date: "2021-01-04"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+piazza_url: https://piazza.com/northwestern/winter2021/cs330/home
 twitter_username: jekyllrb
 github_username:  jekyll
 

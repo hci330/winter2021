@@ -10,7 +10,7 @@ permalink: /syllabus/
 | **Professor** | Sarah Van Wart |
 | **TA** | KJ Schmidt |
 | **Lecture Time** | Monday, Wednesday, & Friday, 1:00 - 1:50PM |
-| **Lecture Location** | Online (for now) |
+| **Lecture Location** | <a href="https://northwestern.zoom.us/j/96018836912" target="_blank">https://northwestern.zoom.us/j/96018836912</a><br>Zoom password on Canvas. |
 
 ## What is HCI?
 Human computer interaction (HCI) is a broad, interdisciplinary field that studies how people and computers interact in the world. These interactions can be studied at the individual scale (e.g. how intuitive an app or website is to a particular user) or in relation to larger social / cultural phenomena (e.g. how social media influences the way people shop, communicate, or access information).
