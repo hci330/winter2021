@@ -8,9 +8,9 @@ draft: 0
 show_schedule: 1
 group: 1
 due_date: 2021-01-13
-# slides:
-#    - url: https://docs.google.com/presentation/d/16fHp2VL_aw8It8EDGLuWmtKsciXrSyy9l1JcTQmPAec/edit?usp=sharing
-#      title: Intro to Hardware & Software
+slides:
+   - url: https://docs.google.com/presentation/d/1ziaXIau2YcCdmHeKP0NmaWGATaXa4UkQlLEoCmz2qC0/edit#slide=id.gb530a111a0_0_17
+     title: Intro to HCI
 
 readings:
   - url: https://medium.com/google-design/human-centered-machine-learning-a770d10562cd
@@ -32,10 +32,4 @@ readings:
     notes: "Skim Part 1 (pp. 1-33), Read Parts 2-4 (pp. 34-77)"
 ---
 
-SOme other readings: 
-* https://www.nytimes.com/2018/03/07/opinion/artificial-intelligence-human.html
-* https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/human-computer-interaction-brief-intro
-* History of HCI: CH1 (see readings)
-* History of AI: 
-     * https://courses.cs.washington.edu/courses/csep590/06au/projects/history-ai.pdf
-     * http://sitn.hms.harvard.edu/flash/2017/history-artificial-intelligence/
+In today's class, we will be discussing the goals of HCI, including a brief history and some current challenges.
