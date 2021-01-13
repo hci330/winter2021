@@ -11,7 +11,11 @@ due_date: 2021-01-13
 slides:
    - url: https://docs.google.com/presentation/d/1ziaXIau2YcCdmHeKP0NmaWGATaXa4UkQlLEoCmz2qC0/edit#slide=id.gb530a111a0_0_17
      title: Intro to HCI
-
+videos:
+  - url: https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b8830b3-7aa1-4a4a-aefa-acaf0174cfc3
+    title: Lecture 2
+    live: 1
+    duration: "42:59"
 readings:
   - url: https://medium.com/google-design/human-centered-machine-learning-a770d10562cd
     title: "Human-Centered Machine Learning"
@@ -32,4 +36,4 @@ readings:
     notes: "Skim Part 1 (pp. 1-33), Read Parts 2-4 (pp. 34-77)"
 ---
 
-In today's class, we will be discussing the goals of HCI, including a brief history and some current challenges.
+In today's class, we will be discussing the general landscape of HCI, including a brief history, some current challenges, and some enduring challenges.
