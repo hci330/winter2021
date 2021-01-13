@@ -4,7 +4,7 @@ title: |
     Intro to HCI for AI
 type: lecture
 num: 2
-draft: 1
+draft: 0
 show_schedule: 1
 group: 1
 due_date: 2021-01-13

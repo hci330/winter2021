@@ -3,12 +3,23 @@ layout: assignment-two-column
 title: Configure Your Software Stack
 type: lab
 abbreviation: Lab 1
-draft: 1
+draft: 0
 num: 1
 description: |
     Setup MongoDB, Flask, GitHub
 due_date: 2021-01-15
 ---
+
+{:.callout}
+> ## Background Readings
+> These are for your reference, if you want to read more about the technologies we're using.
+> * <a href="https://docs.mongodb.com/manual/introduction/" target="_blank">MongoDB Introduction & Guide</a>
+> * Flask (Python Library) <a href="https://palletsprojects.com/p/flask/" target="_blank">intro</a> and <a href="" target="_blank">documentation</a>
+> * Background reading on RESTful architectures:
+>      * <a href="https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f" target="_blank">High-level overview</a>
+>      * <a href="https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm" target="_blank">Fielding's original paper</a>
+> * Deploying to Heroku (for next week): <a href="https://pybit.es/deploy-flask-heroku.html" target="_blank">Step-by-Step Guide</a>.<br>We will go over this more next week.
+
 One of the goals of the course is to help you to analyze the **human dimensions** of data-intensive computing applications. To do this, each of you will set up a 'full stack' application -- to practice (1) thinking through design decisions at different parts of your system, and (2) how the different pieces of a data-intensive system function as a whole. 
 
 While this is not a software engineering or programming course, you will nonetheless be examining and writing code to instantiate particular design principles. Moreover, given that you will be creating a final project prototype, we hope that these labs will be useful for helping you get familiar with some relevant software tools and techniques.

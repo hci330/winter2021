@@ -231,9 +231,10 @@ blockquote {
             background-color: transparent;
             border-bottom: dotted 0px;
             color: $purple;
+            border-bottom: dotted 1px;
         }
         a:hover {
-            border-bottom: dotted 1px;
+            border-bottom: dotted 0px;
         }
     }
 }
