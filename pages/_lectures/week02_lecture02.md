@@ -36,4 +36,4 @@ readings:
     notes: "Skim Part 1 (pp. 1-33), Read Parts 2-4 (pp. 34-77)"
 ---
 
-In today's class, we will be discussing the general landscape of HCI, including a brief history, some current challenges, and some enduring challenges.
+In today's class, we will be discussing the general landscape of HCI, including a brief history and some current challenges.
