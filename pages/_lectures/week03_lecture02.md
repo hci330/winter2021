@@ -6,6 +6,7 @@ num: 4
 group: 2
 draft: 0
 due_date: 2021-01-20
+exercise_url: lecture03.zip
 slides:
   - url: https://docs.google.com/presentation/d/1-OgAy0OajK5Z1jtVAaosjUuYIUoOvPOLOedn3FQCoos/edit?usp=sharing
     title: "Web Architecture & REST"
