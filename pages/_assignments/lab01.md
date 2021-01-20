@@ -108,20 +108,20 @@ My connection string (copied from MongoDB Atlas) is this...
 
 ```bash
 # Your environment variables (edit this), extracted from your DB connection string
-PASSWORD=<your_password>
-DATABASE_NAME=cs330_assignment1
-USERNAME=<your_database_username>
 HOST=<your_host_address>
+DATABASE_NAME=cs330_assignment1
+DB_PASSWORD=<your_password>
+DB_USERNAME=<your_database_username>
 ```
 
 Here is what Sarah's .env file looks like:
 ```bash
 # Example: Sarah's environment variables, extracted from:
 # mongodb+srv://db_admin_user:<password>@cs330.lnztl.mongodb.net/<dbname>?retryWrites=true&w=majority
-PASSWORD=my_secret_password
-DATABASE_NAME=cs330_assignment1
-USERNAME=db_admin_user
 HOST=cs330.lnztl.mongodb.net
+DATABASE_NAME=cs330_assignment1
+DB_USERNAME=db_admin_user
+PASSWORD=my_secret_password
 ```
 
 Note that in the .gitignore file, the .env file is excluded, which means that this file will not be checked into your repo. Please also take a look at `cs330-web-server/db.py` to see how your environment variables are used to dynamically build your connection string:
@@ -135,8 +135,8 @@ def init_database_connection(app):
     app.config['MONGODB_SETTINGS'] = {
         'db': os.environ.get('DATABASE_NAME'),
         'host': 'mongodb+srv://' + os.environ.get('HOST') + '/' + os.environ.get('DATABASE_NAME') + '?retryWrites=true&w=majority',
-        'username': os.environ.get('USERNAME'),
-        'password': os.environ.get('PASSWORD')
+        'username': os.environ.get('DB_USERNAME'),
+        'password': os.environ.get('DB_PASSWORD')
     }
     db = MongoEngine()
     db.init_app(app)
@@ -174,12 +174,11 @@ To test your web app has been successfully configured, we will check 2 things (a
 #### b) Post some data
 In a code editor of your choice, open the `cs330-web-server/testing/client.py` file and take a look at it. The job of this file is to interact with your database using the [http://127.0.0.1:5000/api/posts/](http://127.0.0.1:5000/api/posts/) endpoint.
 
-Uncomment the bottom two lines (25-26) and then run this file on the command line:
+Run this file on the command line:
 
-```python
-# Uncomment to test:
-create_post()
-get_posts()
+```bash
+# from the cs330-web-server/testing on your command line:
+python client.py
 ```
 
 If your database connection is successful, you will see data output to the screen. Navigate to the [http://127.0.0.1:5000/api/posts/](http://127.0.0.1:5000/api/posts/) endpoint again and verify that you now have a post.

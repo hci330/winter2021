@@ -16,11 +16,13 @@ def create_post():
     print(resp.url)
     print(resp.text)
 
-def get_posts():
+def get_all_posts():
     resp = requests.get(url, headers=headers)
     print(resp.text)
 
 
-# Uncomment to test:
-# create_post()
-# get_posts()
+# first, create a post:
+create_post()
+
+# then, retrieve all of your posts and output them to the screen:
+get_all_posts()
