@@ -31,7 +31,14 @@ github_username:  jekyll
 exclude:
   - _lectures/drafts
   - _assignments/drafts
-  # - course-files
+  - "*.pyc"
+  - "*.vscode"
+  - course-files/demos
+  - course-files/build
+  - course-files/homework/drafts
+  - course-files/labs/drafts
+  - course-files/lectures/drafts
+  - course-files/projects/drafts
 
 timezone: "America/Chicago"
 # Build settings

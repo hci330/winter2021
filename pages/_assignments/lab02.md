@@ -7,6 +7,5 @@ draft: 1
 num: 2
 due_date: 2021-01-22
 ---
-MongoEngine Documentation:  https://docs.mongoengine.org/guide/querying.html
-1. Create GET single post endpoint
-2. Create DELETE endpoint
+
+This week's lab will involve getting started with [Homework 1](../assignments/hw01), which will be due next Wednesday. You will not need to turn anything in for this lab. Attendance is recommended but not required.

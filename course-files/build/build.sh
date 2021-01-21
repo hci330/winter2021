@@ -1,5 +1,6 @@
 # zip everything:
-python3 zip_it.py ../assignments
+python3 zip_it.py ../homework
+python3 zip_it.py ../labs
 python3 zip_it.py ../lectures
 
 # build indexes:
