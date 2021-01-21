@@ -8,7 +8,7 @@ permalink: /syllabus/
 | **Term** | Winter, 2021 |
 | **Course** | CS 330: Intro to HCI (MSAI) |
 | **Professor** | Sarah Van Wart |
-| **TA** | KJ Schmidt |
+| **TA** | Cooper Barth |
 | **Lecture Time** | Monday, Wednesday, & Friday, 1:00 - 1:50PM |
 | **Lecture Location** | <a href="https://northwestern.zoom.us/j/96018836912" target="_blank">https://northwestern.zoom.us/j/96018836912</a><br>Zoom password on Canvas. |
 
@@ -181,7 +181,9 @@ an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 1. We will not be using the final exam time for this class.
 
 ## Getting Questions Answered
-We love questions and we hope that you will feel comfortable asking questions about the readings, homework, labs, projects, or anything else related to the course. KJ and I will be posting our office hours by the end of the week.
+* Office Hours: Friday 2-3PM (after lab)
+* We love questions and we hope that you will feel comfortable asking questions about the readings, homework, labs, projects, or anything else related to the course. 
+
 
 ## A Note on Class Recordings
 The Provost's office has asked instructors to publish the following language in the syllabus:

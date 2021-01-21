@@ -15,9 +15,6 @@ videos:
 slides:
   - url: https://docs.google.com/presentation/d/1-OgAy0OajK5Z1jtVAaosjUuYIUoOvPOLOedn3FQCoos/edit?usp=sharing
     title: "Web Architecture & REST"
- 
-
-Access Passcode: nu-hci330
 readings:
   - url: https://medium.com/extend/what-is-rest-a-simple-explanation-for-beginners-part-1-introduction-b4a072f8740f
     title: "What is REST — A Simple Explanation for Beginners"
