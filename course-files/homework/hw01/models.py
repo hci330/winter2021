@@ -11,23 +11,18 @@ class Post(Document):
     published = DateTimeField(default=datetime.datetime.now)
 
     def to_dict(self, path=None):
-        d = {
+        url = "/api/posts/" + str(self.pk) + "/"
+        if path:
+            url = path + url
+        return {
             "id": str(self.pk),
             "title": self.title,
             "content": self.content,
             "author": self.author,
-            "published": self.published.isoformat()
+            "published": self.published.isoformat(),
+            "url": url
         }
-        if path:
-            server_url = path + str(self.pk) + '/'
-            d.update({
-                'url': server_url,
-                'comments_url': server_url + 'comments/'
-            })
 
-        return d
-
-    
     def to_json(self, path=None):
         return json.dumps(self.to_dict(path=path))
 

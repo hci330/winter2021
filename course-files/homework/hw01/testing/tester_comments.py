@@ -6,14 +6,18 @@ from faker import Faker
 fake = Faker()
 
 headers = { 'Content-Type': 'application/json' }
+root_url = 'http://127.0.0.1:5000/'
 
-def get_list_url():
-    url = 'http://127.0.0.1:5000/api/posts/'
+def get_list_url(nested=False):
+    if not nested:
+        return root_url + 'api/comments/'
+    url = root_url + 'api/posts/'
     resp = requests.get(url, headers=headers)
     data = json.loads(resp.text)
-    idx = random.randint(0, len(data) - 1)
+    # idx = random.randint(0, len(data) - 1)
+    idx = 0
     comments_url = data[idx].get('comments_url')
-    print(comments_url)
+    # print(comments_url)
     return comments_url
 
 def create_comment():
@@ -36,14 +40,14 @@ def get_comments_by_post():
 
 def delete_comment():
     comments_url = get_list_url()
-    id = input('type the id of the post you want to delete: ')
+    id = input('type the id of the comment you want to delete: ')
     comments_url += id + '/'
     resp = requests.delete(comments_url, headers=headers)
     print(resp.text)
 
 def update_comment():
     comments_url = get_list_url()
-    id = input('type the id of the post you want to updates: ')
+    id = input('type the id of the comment you want to update: ')
     comments_url += id + '/'
 
     comment = input('New comment: ')
@@ -60,9 +64,9 @@ def update_comment():
 while True:
     print('''
         1 - get all comments (for a post)
-        2 - create random comments
-        3 - update comments
-        4 - delete comments 
+        2 - create random comment
+        3 - update comment
+        4 - delete comment
         5 - quit  
     ''')
     choice = input('What would you like to do (1-5)? ').strip()

@@ -6,11 +6,13 @@ flask run
 '''
 from flask_restful import Api
 from flask import Flask, request, Response
+from flask_cors import CORS
+
 import db
-# from views import posts, comments
 from views import posts, comments
 
 app = Flask(__name__)
+CORS(app)
 db.init_database_connection(app)
 api = Api(app)
 
@@ -22,6 +24,7 @@ def home_page():
 # routes from other files:
 posts.initialize_routes(api)
 comments.initialize_routes(api)
+
 
 
 if __name__ == "__main__":

@@ -11,7 +11,7 @@ class PostListEndpoint(Resource):
 
     def queryset_to_serialized_list(self, queryset):
         serialized_list = [
-            item.to_dict(path=get_path()) for item in queryset
+            item.to_dict() for item in queryset
         ]
         return serialized_list
     
@@ -27,6 +27,7 @@ class PostListEndpoint(Resource):
         else:
             data = models.Post.objects
 
+        # formatting the output JSON
         data = self.queryset_to_serialized_list(data)
         return Response(json.dumps(data), mimetype="application/json", status=200)
 
@@ -49,7 +50,7 @@ class PostDetailEndpoint(Resource):
         post.author = request_data.get('author')
         post.save()
         print(post.to_json())
-        return Response(post.to_json(path=get_path()), mimetype="application/json", status=200)
+        return Response(post.to_json(), mimetype="application/json", status=200)
     
     def delete(self, id):
         post = models.Post.objects.get(id=id)
@@ -60,9 +61,8 @@ class PostDetailEndpoint(Resource):
         return Response(json.dumps(serialized_data), mimetype="application/json", status=200)
 
     def get(self, id):
-        print(request.host_url)
         post = models.Post.objects.get(id=id)
-        return Response(post.to_json(path=get_path()), mimetype="application/json", status=200)
+        return Response(post.to_json(), mimetype="application/json", status=200)
 
 def initialize_routes(api):
     api.add_resource(PostListEndpoint, '/api/posts', '/api/posts/')
