@@ -6,7 +6,7 @@
     {% assign week = diffDays | divided_by: 7 | plus: 1 %}
 {% endif %}
 {% if page.title %}
-    {% if page.layout == 'assignment' or page.layout == 'assignment-two-column' %}
+    {% if page.type == 'homework' or page.type == 'lab' %}
         <h1>
             <a href="../assignments/">Assignments</a> > 
             {{ page.abbreviation }}. {{ page.title }}
