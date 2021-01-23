@@ -1,27 +1,21 @@
-{% assign optional = 0 %}
-{% comment %}
-<h3>Required</h3>
-{% endcomment %}
-<ul class="readings">
-{% for item in page.readings %}
-    {% if item.optional == 1 %}
-        {% assign optional = 1 %}
-    {% else %}
-        {% include reading.html %} 
-    {% endif %}
-{% endfor %}
-</ul>
+{% assign optional_readings = page.readings | where: "optional", 1 %}
+{% assign required_readings = page.readings | where_exp: "item", "item.optional == nil" %}
 
-
-{% comment %}
-{% if optional == 1 %}
-    <h3>Optional</h3>
+{% if required_readings.first %}
+    {% if include.show_headings and optional_readings.first %}<h3>Required</h3>{% endif %}
     <ul class="readings">
-    {% for item in page.readings %}
-        {% if item.optional == 1 %}
-            {% include reading.html %} 
-        {% endif %}
+    {% for item in required_readings %}
+        {% include reading.html %} 
     {% endfor %}
     </ul>
 {% endif %}
-{% endcomment %}
+
+{% if optional_readings.first %}
+{% if include.show_headings %}<h3>Optional</h3>{% endif %}
+<p>The following readings are recommended for additional context:</p>
+    <ul class="readings">
+    {% for item in optional_readings %}
+        {% include reading.html %} 
+    {% endfor %}
+    </ul>
+{% endif %}
