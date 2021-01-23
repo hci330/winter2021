@@ -22,4 +22,4 @@ readings:
      optional: 1
 ---
 
-This week's lab will involve getting started with [Homework 1](../assignments/hw01), which will be due next Wednesday. You will not need to turn anything in for this lab. Attendance is recommended but not required.
+This week's lab will involve getting started with [Homework 1](../assignments/hw01), which will be due next Thursday. You will not need to turn anything in for this lab. Attendance is recommended but not required.
