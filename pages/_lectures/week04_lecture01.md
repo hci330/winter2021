@@ -4,7 +4,7 @@ title: |
     Modeling & Resource Description: Part 1
 type: lecture
 draft: 0
-num: 5
+num: 4
 due_date: 2021-01-25
 reading_notes: "Apologies for posting these readings late. We'll go over them in class."
 slides: 

@@ -4,7 +4,7 @@ title: |
     Modeling & Resource Description: Part 2
 type: lecture
 draft: 1
-num: 6
+num: 5
 due_date: 2021-01-27
 readings:
   - url: "https://canvas.northwestern.edu/files/10437648/download?download_frd=1"
