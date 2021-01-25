@@ -135,7 +135,7 @@ To answer these questions, we will read and discuss research papers and industry
 
 ## Course Format
 ### 1. Team Project
-The heart of this course is a quarter-long project. You will work in teams to design and test a novel user interface around and idea of your team's choosing. 
+The heart of this course is a quarter-long [team project](../project-description). You will work in teams to design and test a novel user interface around and idea of your team's choosing. 
 
 ### 2. Individual Homework Assignments
 You will also work on individual homework assignments throughout the quarter. These assignments will vary -- some will be coding assignments to get you familiar with different technologies and design methods. Some will be written assignments that will ask you to analyze existing systems or examine a series of case studies. All of these assignments are intended to help you develop your thinking about design decisions and their tradeoffs. 
