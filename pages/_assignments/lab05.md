@@ -1,10 +1,11 @@
 ---
 layout: assignment-two-column
-title: Visual Design
-abbreviation: Lab 5
+title: |
+    "Paper" Prototyping with Balsamiq
 type: lab
+abbreviation: Lab 5
 draft: 1
-num: 5
+num: 6
 due_date: 2021-02-12
     
 ---

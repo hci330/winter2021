@@ -1,6 +1,8 @@
 {% assign optional_readings = page.readings | where: "optional", 1 %}
 {% assign required_readings = page.readings | where_exp: "item", "item.optional == nil" %}
-
+{% if page.reading_notes %}
+    <p>{{ page.reading_notes }}</p>
+{% endif %}
 {% if required_readings.first %}
     {% if include.show_headings and optional_readings.first %}<h3>Required</h3>{% endif %}
     <ul class="readings">
@@ -11,8 +13,12 @@
 {% endif %}
 
 {% if optional_readings.first %}
-{% if include.show_headings %}<h3>Optional</h3>{% endif %}
-<p>The following readings are recommended for additional context:</p>
+{% if include.show_headings %}
+    <h3>Optional</h3>
+{% elsif required_readings.first %}
+    <br>
+{% endif %}
+    <p>The following readings are recommended for additional context:</p>
     <ul class="readings">
     {% for item in optional_readings %}
         {% include reading.html %} 
