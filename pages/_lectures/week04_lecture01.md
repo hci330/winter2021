@@ -3,9 +3,13 @@ layout: module
 title: |
     Modeling & Resource Description: Part 1
 type: lecture
-draft: 1
+draft: 0
+num: 5
 due_date: 2021-01-25
 reading_notes: "Apologies for posting these readings late. We'll go over them in class."
+slides: 
+  - url: https://docs.google.com/presentation/d/1ZFVfpdWcMpOpDDIJUdNQmSLvofkNkNgFxeU4MZV-LUQ/edit?usp=sharing
+    title: Organizing Systems
 readings:
   - url: https://canvas.northwestern.edu/files/10437551/download?download_frd=1
     title: "Chapter 1: Foundations for Organizing Systems"
@@ -31,4 +35,4 @@ readings:
     optional: 1
 ---
 
-TBD
+Today we're going to be talking about Organizing Systems and some basic principles.
