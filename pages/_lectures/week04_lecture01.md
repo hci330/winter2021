@@ -19,12 +19,13 @@ readings:
     date: 2013
   - url: https://canvas.northwestern.edu/files/10437549/download?download_frd=1
     title: |
-        Read 12.5 (Organizing a Kitchen), 12.16 (Dabbawalas), and 12.8 (Weekly Newspaper)
+        Case Studies: Read 12.5 (Organizing a Kitchen), 12.16 (Dabbawalas), and 12.8 (Weekly Newspaper)
     author: "Various authors"
     source: "The Discipline of Organizing (TDO)"
     date: 2013
   - url: https://canvas.northwestern.edu/files/10437550/download?download_frd=1
-    title: Carving up the world at its political joints
+    title: |
+        Case Study: Carving up the world at its political joints
     author: Volkov
     date: 2015
     optional: 1

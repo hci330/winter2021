@@ -17,16 +17,16 @@ readings:
     source: "The Discipline of Organizing (TDO)"
     date: 2013
   - url: https://canvas.northwestern.edu/files/10437634/download?download_frd=1
-    title: "Spotify’s Recommendation Engine"
+    title: "Case Study: Spotify’s Recommendation Engine"
     author: Ngo, Vincent
     date: May, 2019
   - url: https://canvas.northwestern.edu/files/10437658/download?download_frd=1
-    title: "Guide Dogs for the Blind"
+    title: "Case Study: Guide Dogs for the Blind"
     author: "Cho, Anna"
     optional: 1
   - url: https://canvas.northwestern.edu/files/10437549/download?download_frd=1
     title: |
-        Read 12.12 (Autonomous Cars)
+        Case Study: Read 12.12 (Autonomous Cars)
     author: "Danker, Jason"
     source: "The Discipline of Organizing (TDO)"
     date: 2015
