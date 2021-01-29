@@ -12,7 +12,7 @@ due_time: 1:00PM
 ## Part I. Before You Come to Lab
 Before you come to lab on Friday, please prepare a 3-slide deck that describes an idea you're interested in working on. You don't have to be sure about your idea or know whether it's feasible. We're just doing a structured brainstorm to get everyone to discuss different ideas and possibilities. Don't worry too much about the details yet -- we're just in the "ideas phase."
 
-<!-- You're welcome to take a look at the [final project guidelines](../project-description), but don't worry too much about the details yet -- we're just in the "ideas phase." -->
+You're welcome to take a look at the [final project guidelines](../project-description), but don't worry too much about the details yet -- we're just in the "ideas phase."
 
 ### Slide 1. Idea
 Describe your idea, including (a) who your users are, (b) the interactions you hope to support, and (c) the data/information resources your system will provide.

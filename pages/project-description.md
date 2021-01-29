@@ -15,58 +15,34 @@ permalink: /project-description/
     }
 </style>
 
-During the last five weeks of the course, you and your team will be designing and implementing a final project of your choosing. Think of your final project as one step towards a larger goal you might work towards —  dedicated to topic or idea that you’re excited about, and a step beyond what you currently know how to do. You don’t have to complete your whole vision...just a slice of it. The most important thing is for you your team to pick something you’re interested in and excited about. Think broadly and creatively: don’t be afraid to take a risk and explore something you do not yet know how to do.
+During the last five weeks of the course, you and your team will be designing and implementing a final project of your choosing. Think of your final project as **one part** of a larger goal you might work towards —  dedicated to topic or idea that you’re excited about, and a step beyond what you currently know how to do. You don’t have to complete your whole vision...just a slice of it. The most important thing is for you your team to pick something you’re interested in and excited about. 
+
+Think broadly and creatively: don’t be afraid to take a risk and explore something you do not yet know how to do. Even if you don't ultimately **implement** all of the features that you want, you can still **design the interactions** and test out some of your ideas with other people (your classmates, friends, and family).
 
 ## Scoping Criteria / Ground Rules
 Aim to scope your project so that you can arrive at a coherent stopping point by the end of the quarter. I am hesitant to provide too many scoping criteria/restrictions a priori. I would rather work with you and your team to scope something that is doable after first seeing what you’re interested in. That said, here are a few guidelines:
 
-1. You may work on your own or in groups of up to 4 people. Your work plan should be commensurate with the number of people in your group.
-1. You may focus on depth or breadth. In other words, you design, build, and evaluate the efficacy of single feature and build out the entire end-to-end stack for a particular feature, or you can build the front end for several features and 
-1. You will be completing 3 project milestones in the coming weeks (which you will set for yourself), and then a final deliverable. You will also be presenting your final deliverable during the last day of class. In other words, think of a task that you can divide into three distinct steps, and then use the final week to refine your project and polish it.
-1. You will be the one devising / selecting among the relevant evaluation criteria. In other words, we will evaluate you based on (high-level) metrics that you set for yourself. 
-1. This project is not your life’s work — it’s the beginning of a longer journey into web technologies. As such, scope your project to something reasonable. You can always build on these ideas later.
+### 1. Team Guidelines
+You may work on your own or in groups of up to 4 people. Your work plan should be commensurate with the number of people in your group. This project is not your life’s work — it’s the beginning of a longer journey into web technologies. As such, scope your project to something reasonable. You can always build on these ideas later.
 
-## Some Sample Project Ideas
-### A. Design-Oriented Project (Front End)
-Designing and implementing a front-end web interaction using primarily HTML and CSS (and perhaps some JavaScript). This would involve really delving into the design principles (symmetry, color, etc.) and justifying / defending your choices and how they communicate the ideas / values of your website. Example ideas:
-1. Making a portfolio
-1. Making a personal website (or a part of a website) on a topic of interest (music, art, current events)
-1. Helping an existing business / organization / initiative w/their website (or building one from scratch).
-1. Redesigning an existing website.
+### 2. Design v. Implementation?
+From the perspective of what you will actually have to ***implement***, you will be prioritizing the user interface. In other words, you ***will*** be implementing the look and feel of the user interaction using HTML, CSS, and JavaScript, which will involve interacting with data (even if it's fake data). However, you ***won't*** be implementing the entire data / ML workflow for the particular interaction (unless you really want to). That said, you will be required to draw a diagram of the data / ML workflow, which will encourgage you to think through some of the specifics of the data.
 
-### B. Animation (Front End)
-Creating a web animation / experience using JavaScript and Canvas. Take a look at some of these libraries and examples (which I think are really inspiring). 
-* <a href="https://threejs.org/" target="_blank">Three.js</a>
-* <a href="https://pablotheflamingo.com/" target="_blank">Flamingo (turn on the sound)</a>
-* <a href="http://www.sbs.com.au/theboat/" target="_blank">Graphic Novel (Boat)</a>
-* <a href="http://paperjs.org/" target="_blank">Paper.js</a>
-* <a href="https://codepen.io/vanwars/pen/MdgeMq?editors=0100" target="_blank">Jellies</a> (note that the Canvas element can also be used for ornamentation versus for the main event).
+### 3. Evaluation Criteria
+There are a few requirements that all projects must meet, which include:
 
-### C. Data Visualization / Journalistic Interactive (Front End)
-Creating an interesting, interactive data visualization and/or media presentation that communicates an issue or idea. Take a look at a few examples:
-* <a href="https://www.informationisbeautifulawards.com/" target="_blank">Information is Beautiful</a>
-* <a href="https://flowingdata.com/" target="_blank">Flowing Data</a>
-* NYT Visual Stories: <a href="https://www.nytimes.com/interactive/2019/12/30/us/2019-year-in-graphics.html" target="_blank">2019</a> &bull; <a href="https://www.nytimes.com/interactive/2018/us/2018-year-in-graphics.html" target="_blank">2018</a>
-* <a href="https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/" target="_blank">The Atlantic</a>
+1. Running testing and evaluation sessions
+2. Designing particular data resources in terms of the interactions you hope to support
+3. Implementing user interfaces using HTML, CSS, and Javascript
+4. Ensuring that your interfaces interact with an actual database (even if you're using fake data).
 
-
-These libraries may be useful:
-
-* <a href="https://observablehq.com/@d3/gallery" target="_blank">d3.js</a>
-* <a href="https://leafletjs.com/" target="_blank">Leaflet Maps</a>
-* <a href="https://www.highcharts.com/" target="_blank">Highcharts</a>
-* <a href="https://vega.github.io/vega/" target="_blank">Vega</a>
-
-### D. Data-Driven Web App for an Existing Database
-Creating some interactive web front end that works with a third-party API (e.g. Spotify, CTA, Divvy Bikes API, Twitter, Flickr, etc.). For instance, this is a web app that interacts with the Spotify API (like <a href="https://gitriley.github.io/everlysn/">this one</a>).
-
-### E. Full Stack Web App (with Custom Database)
-Designing and implementing a small REST API with a database, and using it to drive your website. This is only recommended for students who have had at least two programming classes (typically CS majors / minors), as it will involve taking some initiative (reading Node.js tutorials, database tutorials, etc.). Historically, around 2-3 students have gone this route (and have been very successful), but it requires some initiative to do some tutorials on your own. 
-
+That said, your team gets to decide what the interactions will look like, and how many to implement -- which will vary depending on the # of teammates and the nature of the interactions you hope to support. As such, you will also be evaluated based on (high-level) metrics that you set for yourself (so long as Sarah signs off on them). Next week, I can publish a list of potential interactions you might consider implementing.
 
 ## Project Milestones
-In an effort to provide some structure as you work to complete your projects, I've set up a schedule of interim deliverables, to help you stay on track and get regular feedback.
+You will be completing 3 project milestones in the coming weeks (which you will set for yourself), and then a final deliverable. You will also be presenting your final deliverable during the last day of class.
 
+
+{% comment %}
 <table class="project-schedule">
     <thead>
         <tr>
@@ -162,3 +138,4 @@ In an effort to provide some structure as you work to complete your projects, I'
         </tr>
     </tbody>
 </table>
+{% endcomment %}

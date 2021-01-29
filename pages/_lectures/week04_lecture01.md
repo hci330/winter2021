@@ -33,6 +33,11 @@ readings:
     author: Volkov
     date: 2015
     optional: 1
+videos:
+  - url: https://northwestern.zoom.us/rec/share/Le9hKAXtg_pi0ljI58WuSd2zm3olTa3aNjTv0DEK1I2LSk-gpK2XHi0g5j0UvGNN.GcAvny-wdm-fgyLX?startTime=1611600313000
+    title: Lecture 4
+    live: 1
+    duration: "44:57"
 ---
 
 Today we're going to be talking about Organizing Systems and some basic principles.
