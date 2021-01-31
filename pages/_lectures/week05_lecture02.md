@@ -7,7 +7,7 @@ num: 7
 group: 3
 due_date: 2021-02-03
 readings:
-   - title: JavaScript Chapters 4-6"
+   - title: "JavaScript Chapters 4-6"
      url: https://learning.oreilly.com/videos/html-css-and/9781838551278/9781838551278-video4_1
      source: "Introduction to Web Development (O'Reilly)"
      author: "Laurence Svekis"
