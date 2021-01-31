@@ -6,10 +6,10 @@ draft: 0
 group: 3
 num: 6
 due_date: 2021-02-01
-# exercise_url: "lecture06.zip"
-# slides:
-#    - url: ""
-#      title: "Intro to Browsers & Web Languages"
+exercise_url: "lecture06.zip"
+slides:
+   - url: "https://docs.google.com/presentation/d/1TQjrmXM07ceWizlZhSLtjo4jaCpQhSfc0wtPNd3zM1U/edit?usp=sharing"
+     title: "Intro to Browsers & Web Languages"
 readings:
    - url: https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F6619359376505401345%3Ftrk%3Dshare_collection_url&account=75814418
      source: LinkedIn Learning
