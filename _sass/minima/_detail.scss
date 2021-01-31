@@ -63,7 +63,20 @@ img.cars {
 .highlighter-rouge {
     margin-bottom: 20px;
 }
-
+.button, .button:visited, .button:active, .button:hover {
+    background: #EEE;
+    border: none;
+    color: #444 !important;
+    margin: 20px .5em 20px 0;
+    padding: .8em 1em .7em 1em;
+    align-self: flex-start;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+    text-decoration: none;
+    i {
+        margin-left: 5px;
+    } 
+}
 .nu-button, .nu-button:visited, .nu-button:active {
     &:hover {
         background: $lightpurple;
