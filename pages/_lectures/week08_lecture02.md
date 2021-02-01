@@ -1,7 +1,7 @@
 ---
 layout: module
 title: |
-    Understanding Uncertainty
+    Explainable / Interpretable ML
 type: lecture
 draft: 1
 group: 4

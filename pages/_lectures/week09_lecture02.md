@@ -1,7 +1,6 @@
 ---
 layout: module
-title: |
-    "Mixed Initiative" Human Systems
+title: Continual Learning Models
 type: lecture
 draft: 1
 group: 4

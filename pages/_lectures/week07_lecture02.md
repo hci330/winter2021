@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Accessibility
+title: Visual Design
 type: lecture
 draft: 1
 num: 15

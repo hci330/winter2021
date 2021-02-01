@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "Visual Design"
+title: "Usability: Part 2"
 type: lecture
 draft: 1
 points: 4

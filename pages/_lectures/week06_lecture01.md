@@ -1,6 +1,6 @@
 ---
 layout: module
-title: "Usability: Part 1"
+title: "User Research"
 type: lecture
 draft: 1
 num: 11

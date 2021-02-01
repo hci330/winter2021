@@ -1,7 +1,7 @@
 ---
 layout: module
 title: |
-    Explainable / Interpretable ML
+    Accessibility
 type: lecture
 draft: 1
 group: 4
