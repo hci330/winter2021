@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Tester</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+        <h1>Add New Post</h1>
+        <form id="post-form">
+            <div class="input-section">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="input-section">
+                <label for="author">Author</label>
+                <input type="text" name="author" id="author">
+            </div>
+            <div class="input-section">
+                <label for="content">Content</label>
+                <textarea name="content" id="content"></textarea>
+            </div>
+            <button class="btn btn-main" id="save" type="submit">Save</button>
+        </form>
+        <section id="confirmation" class="hide">
+            <p>
+                Your post was successfully added. <a href="/">Check it out</a>.
+            </p>
+        </section>
+
+
+
+        <!--  JavaScript files right before the closing body tag -->
+        <script type="text/javascript" src="/static/js/create-post.js"></script>
+    </body>
+</html>
