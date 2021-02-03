@@ -7,9 +7,15 @@ group: 3
 num: 6
 due_date: 2021-02-01
 exercise_url: "lecture06.zip"
+show_schedule: 1
 slides:
    - url: "https://docs.google.com/presentation/d/1TQjrmXM07ceWizlZhSLtjo4jaCpQhSfc0wtPNd3zM1U/edit?usp=sharing"
      title: "Intro to Browsers & Web Languages"
+videos:
+   - url: https://northwestern.zoom.us/rec/share/dp5Eg_4iUw6nP3jWixastTVbokeZW0YHRCBZ8A4XzRP9CBfrK-RFl09c-DQJJPdG.JdJm5Lib3hVAEkne
+     title: Lecture 6
+     duration: "59:19"
+     live: 1
 readings:
    - url: https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcollections%2F6619359376505401345%3Ftrk%3Dshare_collection_url&account=75814418
      source: LinkedIn Learning

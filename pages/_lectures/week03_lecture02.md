@@ -7,6 +7,7 @@ group: 2
 draft: 0
 due_date: 2021-01-20
 exercise_url: lecture03.zip
+show_schedule: 1
 videos:
  - url: https://northwestern.zoom.us/rec/share/KZZ6VdOhl2CMLFThv4SB7ZdiUJ2etwlpW9T8Es9zRjDRNR1gUW_0W8sXNKUv9Pz6.e7l9ISZ7cuJ7c39X
    title: Lecture 3

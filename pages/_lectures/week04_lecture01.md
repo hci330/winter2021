@@ -6,6 +6,7 @@ type: lecture
 draft: 0
 num: 4
 due_date: 2021-01-25
+show_schedule: 1
 reading_notes: "Apologies for posting these readings late. We'll go over them in class."
 slides: 
   - url: https://docs.google.com/presentation/d/1ZFVfpdWcMpOpDDIJUdNQmSLvofkNkNgFxeU4MZV-LUQ/edit?usp=sharing
