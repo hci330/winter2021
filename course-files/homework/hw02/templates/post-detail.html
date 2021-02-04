@@ -1,22 +1,25 @@
 <html>
     <head>
         <title>Tester</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="/static/css/style.css">
     </head>
     <body>
-        <h1>Post Detail</h1>
+        <nav>
+            <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+        </nav>
         <main>
             <!-- 1. Buttons -->
             <section id="menu" class="align-right">
                 <button class="btn btn-main" id="edit-button">Edit Post</button>
-                <a class="btn" href="/">Home</a>
+                <button class="btn btn-delete" id="delete-button">Delete</button>
             </section>
 
             <!-- 2. To view the post -->
-            <section id="view-post">
+            <div id="view-post">
                 <section class="post"></section>
                 <section class="comments"></section>
-            </section>
+            </div>
 
             <!-- 4. To edit the post -->
             <form id="post-form" class="hide"></form>

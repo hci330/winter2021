@@ -43,12 +43,32 @@ const updatePost = (ev) => {
     ev.preventDefault();
 };
 
+const deletePost = (ev) => {
+    const doIt = confirm('Are you sure you want to delete this blog post?');
+    if (!doIt) {
+        return;
+    }
+    fetch('/api/posts/' + activePost.id + '/', { 
+        method: 'DELETE',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log(data);
+        // navigate back to main page:
+        window.location.href = '/';
+    });
+    ev.preventDefault()
+};
+
 // creates the HTML to display the post:
 const renderPost = (ev) => {
     const paragraphs = '<p>' + activePost.content.split('\n').join('</p><p>') + '</p>';
     const template = `
         <p id="confirmation" class="hide"></p>
-        <h2>${activePost.title}</h2>
+        <h1>${activePost.title}</h1>
         <div class="date">${formatDate(activePost.published)}</div>
         <div class="content">${paragraphs}</div>
         <p>
@@ -120,6 +140,7 @@ const initializePage = () => {
     getPost();
     // add button event handler (right-hand corner:
     document.querySelector('#edit-button').onclick = renderForm;
+    document.querySelector('#delete-button').onclick = deletePost;
 };
 
 initializePage();
