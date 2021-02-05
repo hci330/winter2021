@@ -8,4 +8,7 @@ group: 4
 due_date: 2021-02-22
 ---
 
-TBD
+https://www.microsoft.com/en-us/research/publication/ai-and-accessibility-a-discussion-of-ethical-considerations/
+
+
+https://www.microsoft.com/en-us/research/group/human-computer-interaction/#!publications
