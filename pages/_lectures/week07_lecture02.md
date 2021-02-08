@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Visual Design
+title: Usability Continued; Visual Design Principles
 type: lecture
 draft: 1
 num: 15
