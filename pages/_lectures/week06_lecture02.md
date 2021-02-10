@@ -2,10 +2,18 @@
 layout: module
 title: "Personas & Task Scenarios; Prototyping Techniques"
 type: lecture
-draft: 1
+draft: 0
 points: 4
 num: 9
 due_date: 2021-02-10
+slides:
+  - url: https://docs.google.com/presentation/d/1Tkp4B1AVYhOJWJp5mqq_-YNLkzV2kkb8kXnU8cYV05M/edit?usp=sharing
+    title: Personas, Scenarious, & Prototyping
+# videos:
+#    - url: ""
+#      title: Lecture 9
+#      live: 1
+#      duration: "???"
 readings:
   - title: "Scenario-Based Design"
     url: https://canvas.northwestern.edu/files/10548633/download?download_frd=1
