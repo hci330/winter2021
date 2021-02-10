@@ -31,4 +31,3 @@ readings:
     author: Babich, Nick
     date: 2018
 ---
-TBD
