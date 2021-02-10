@@ -9,11 +9,11 @@ due_date: 2021-02-10
 slides:
   - url: https://docs.google.com/presentation/d/1Tkp4B1AVYhOJWJp5mqq_-YNLkzV2kkb8kXnU8cYV05M/edit?usp=sharing
     title: Personas, Scenarious, & Prototyping
-# videos:
-#    - url: ""
-#      title: Lecture 9
-#      live: 1
-#      duration: "???"
+videos:
+   - url: https://northwestern.zoom.us/rec/share/ln16ow4--wuDCLm1YZgNljWrcp88xXoC2IMenl2OG5CKeJQbm8_YKOZrjt94jJFv.0rawiJ0h2wqld2K7?startTime=1612983596000
+     title: Lecture 9
+     live: 1
+     duration: "54:20"
 readings:
   - title: "Scenario-Based Design"
     url: https://canvas.northwestern.edu/files/10548633/download?download_frd=1
