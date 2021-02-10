@@ -2,10 +2,15 @@
 layout: module
 title: "User Research"
 type: lecture
-draft: 1
+draft: 0
 num: 8
 due_date: 2021-02-08
 show_schedule: 1
+videos:
+   - url: https://northwestern.zoom.us/rec/share/l7E_WfMa22q2rSdb7C7u21Ok1Pl8WPjP57LwX4-p5E0l-DPLJeE0vbKOs5v8j0ZD.wn7t4stAMFXzFqc-?startTime=1612807241000
+     title: Lecture 8
+     live: 1
+     duration: "46:18"
 slides: 
   - title: Intro to User Research
     url: https://docs.google.com/presentation/d/1BZHRN0kKiYtOkv36Lcuxj83jm67aEIBjqx_xNlp-jD0/edit?usp=sharing
