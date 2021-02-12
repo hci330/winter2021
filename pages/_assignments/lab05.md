@@ -17,4 +17,19 @@ Today we will be practicing "Paper" prototyping techniques (your team assignment
 
 <img src="https://miro.medium.com/max/800/1*tIh5eS6vliocHPYTsupWWQ.gif" style="margin:auto;display:flex">
 
-Please submit a link to your first Balsamiq Prototype to Canvas (1 per team).
+## Your tasks:
+### As a Class
+Please register for Balsamiq using the course license, located on <a href="https://canvas.northwestern.edu/courses/130584" target="_blank">Canvas</a> (scroll to #5). When you're done, we'll walk though, as a group, how you use the software to mock something up.
+
+### In Teams
+Break up into your teams and devise a plan (for [P3](../assignments/p3)). Although you are still in the process of doing user research, you can start talking about the tasks and interactions (while being open to new insights / ideas that come from your interviews / contextual inquiries). Discuss the following:
+
+   * Which parts of your system are the most innovative, open-ended, and/or risky? You will prioritize testing these parts of your system first.
+   * Who are the users for this interaction? 
+   * How can you ground this part of your interface in a concrete set of task scenarios?
+   * Will you be designing for Desktop, mobile, or both? You may want to stick with one context for your project. Up to you.
+   * What should the screens look like? I recommend that each person on your team prototype several versions of the interaction -- get creative.
+   * How will you recruit users to test your prototype?
+
+## What to aim for by the end of today's lab
+By the end of the lab, you should have a sense of how to use the prototyping software, and a general sense of the tasks you will be prioritizing, screens that you will be prototyping, and how you might find users to help you test.
