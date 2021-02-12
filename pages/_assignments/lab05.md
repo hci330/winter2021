@@ -7,6 +7,9 @@ abbreviation: Lab 5
 draft: 0
 num: 6
 due_date: 2021-02-12
+slides:
+  - title: "Low-Fi Prototype Testing"
+    url: https://docs.google.com/presentation/d/1HXrMFOseN45RJnipQ2EIbkhF7s8uu5LPn_QGTkVYg-E/edit?usp=sharing
 readings:
   - url: https://canvas.northwestern.edu/files/8132818/download?download_frd=1
     title: Paper Prototyping
