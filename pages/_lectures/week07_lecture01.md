@@ -3,9 +3,17 @@ layout: module
 title: "Usability"
 type: lecture
 draft: 0
-points: 4
-num: 12
+group: 3
+num: 10
+# videos:
+#    - url: ""
+#      title: Lecture 11
+#      live: 1
+#      duration: ""
 due_date: 2021-02-15
+slides:
+   - title: Usability Principles
+     url: https://docs.google.com/presentation/d/1WKoHg7HyAmElhN-7H9VI07Wmc6RXnQoIlWtjB_b0QoY/edit?usp=sharing
 readings:
    - title:  The Design of Everyday Things, Chapter 1
      url: https://canvas.northwestern.edu/files/10616493/download?download_frd=1
