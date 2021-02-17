@@ -9,11 +9,11 @@ due_date: 2021-02-17
 slides: 
    - title: "Visual Design"
      url: https://docs.google.com/presentation/d/1p8eAEmXqYXW068rvETuecqYeqaZcaVvFdXXjnoD4PbI/edit?usp=sharing
-# videos:
-#    - url: ""
-#      title: Lecture 11
-#      live: 1
-#      duration: ""
+videos:
+   - url: https://northwestern.zoom.us/rec/share/fSiblPTXi7gWIaijUKNgI9O0I7NGbO6fWr51hWJC4u0XjFqGPurHwKiRhPvRPu4n.4Ibqp5Vdkqn8gs8a?startTime=1613588377000
+     title: Lecture 11
+     live: 1
+     duration: "52:25"
 readings:
    - title: The Non-Designer's Design Book, Chapter 1
      author: Williams, Robin
