@@ -5,11 +5,11 @@ type: lecture
 draft: 0
 group: 3
 num: 10
-# videos:
-#    - url: ""
-#      title: Lecture 11
-#      live: 1
-#      duration: ""
+videos:
+   - url: https://northwestern.zoom.us/rec/share/B-oSLsIYtlofHSQ97bnxl3xsKjIsWth2bs0FxbdgpNxD1XyiXsmWv8MdV6aBT0ly.UMmLXy8T3i8cX2hJ?startTime=1613412090000
+     title: Lecture 10
+     live: 1
+     duration: "53:35"
 due_date: 2021-02-15
 slides:
    - title: Usability Principles
