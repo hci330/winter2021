@@ -1,0 +1,101 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto|Open+Sans");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+* {
+    box-sizing: border-box; 
+}
+body {
+   font-family: "Open Sans", sans-serif;
+   margin: 0px;
+}
+a {
+   text-decoration: none;
+   color: #444;
+}
+.mobile {
+   display: none;
+}
+header {
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+/*    height: 100px; */
+}
+h1,
+h2 {
+   margin-top: 0px;
+   margin-bottom: 5px;
+}
+
+nav ul {
+   display: flex;
+   padding: 0px;
+   margin: 0px;
+   justify-content: center;
+}
+nav ul li {
+   border-bottom: solid 3px transparent;
+   list-style: none;
+   padding: 10px 5px;
+}
+nav ul li.active {
+   border-bottom: solid 3px #4e2a84;
+}
+nav ul li a {
+   padding: 5px 8px;
+}
+nav ul li:hover,
+nav ul li:active {
+   background: #f9f9f9;
+   border-bottom: solid 3px #ccc;
+}
+
+
+@media (max-width: 700px) { 
+    nav {
+        display: none;
+    }
+    body {
+        background: #444;
+    }
+    header {
+        background: #f0f0f0;
+        display: grid;
+        grid-template-columns: 40px auto;
+        grid-template-rows: auto;
+        justify-content: flex-start;
+   }
+   .mobile {
+        display: block;
+        font-size: 26px;
+   }
+   .desktop {
+        display: none;
+   }
+
+   /* Mobile View */
+    nav.mobile-view {
+        display: flex !important;
+    }
+    nav.mobile-view ul {
+        flex-direction: column;
+        width: 100%;
+        background: white;
+    }
+    nav.mobile-view li {
+        width: 100%;
+        border: none !important;
+    }
+    nav.mobile-view ul li:hover {
+        background: #F0F0F0;
+    }
+    nav.mobile-view ul li.active, nav.mobile-view ul li.active:hover {
+        background-color: #4e2a84;
+    }
+    nav.mobile-view ul li.active a {
+        color: white;
+    }
+}

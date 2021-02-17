@@ -5,6 +5,7 @@ title: |
 type: lecture
 draft: 1
 group: 4
+num: 12
 due_date: 2021-02-24
 ---
 
