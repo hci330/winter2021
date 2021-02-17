@@ -6,6 +6,9 @@ draft: 0
 num: 11
 group: 3
 due_date: 2021-02-17
+slides: 
+   - title: "Visual Design"
+     url: https://docs.google.com/presentation/d/1p8eAEmXqYXW068rvETuecqYeqaZcaVvFdXXjnoD4PbI/edit?usp=sharing
 # videos:
 #    - url: ""
 #      title: Lecture 11
