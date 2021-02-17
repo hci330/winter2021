@@ -43,7 +43,7 @@ Please review the rules we discussed if needed:
 
 Then, download and take a look at the sample code I have provided you. You don't have to use any of these samples, but if you're new to front-end design, these files can help you to get oriented with some HTML / CSS / JavaScript strategies.
 
-<a class="nu-button" href="/winter2021/course-files/labs/lab01.zip">lab06.zip <i class="fas fa-download" aria-hidden="true"></i></a>
+<a class="nu-button" href="/winter2021/course-files/labs/lab06.zip">lab06.zip <i class="fas fa-download" aria-hidden="true"></i></a>
 
 ### 1. layout-techniques
 The `layout-techniques` folder contains some simple layouts and cards that you can adapt, modify, and style to fit your needs. In my opinion, CSS / HTML layouts are the most difficult part of CSS.
