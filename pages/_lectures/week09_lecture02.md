@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Continual Learning Models
+title: Explainable / Interpretable AI
 type: lecture
 draft: 1
 group: 4
