@@ -2,8 +2,9 @@
 layout: module
 title: Explainable / Interpretable AI
 type: lecture
-draft: 1
+draft: 0
 group: 4
+num: 14
 due_date: 2021-03-01
 readings:
    - url: https://www.youtube.com/watch?v=44u0sRLGwgQ&feature=youtu.be
@@ -24,4 +25,4 @@ readings:
 
 ---
 
-TBD
+Today we will be discussing ideas around interpretability in AI systems. Please come to class prepared to discuss the readings. 

@@ -4,7 +4,7 @@ title: Accessibility & Inclusivity
 type: lecture
 draft: 0
 group: 4
-num: 12
+num: 13
 readings:
    - title: Design for User Empowerment
      url: https://canvas.northwestern.edu/files/10697555/download?download_frd=1
