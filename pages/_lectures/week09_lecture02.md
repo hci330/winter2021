@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Explainable / Interpretable AI
+title: AI with Humans in the Loop
 type: lecture
 draft: 1
 group: 4
