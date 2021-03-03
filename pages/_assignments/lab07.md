@@ -8,6 +8,6 @@ num: 7
 due_date: 2021-02-26
 ---
 
-Today you'll be testing the first version of your high-fidelity protyp prototype in lab.
+Today you'll be testing the first version of your high-fidelity prototype in lab.
 
 Be sure to take notes, as you'll need to write up your observations and resolutions for your team submission this week.

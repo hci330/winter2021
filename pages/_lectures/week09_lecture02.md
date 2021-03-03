@@ -6,6 +6,9 @@ draft: 0
 group: 4
 num: 15
 due_date: 2021-03-03
+slides: 
+ - title: "Recommendation Systems Discussion"
+   url: https://docs.google.com/presentation/d/1jRDrQQG8ZrXp-fhb3a1_L_AXNwLE5gwnjLD3vqyTsjg/edit?usp=sharing
 readings:
  - title: "Beyond algorithms: An HCI perspective on recommender systems"
    url: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.23.9764&rep=rep1&type=pdf
