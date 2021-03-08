@@ -2,7 +2,8 @@
 layout: module
 title: "AI: Challenges, Business Models, & Ideology"
 type: lecture
-draft: 1
+draft: 0
+num: 16
 group: 4
 due_date: 2021-03-08
 slides:
