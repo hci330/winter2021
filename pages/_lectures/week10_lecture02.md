@@ -2,9 +2,12 @@
 layout: module
 title: "AI: Principles (Ethics, Rights, & Values)"
 type: lecture
-draft: 1
+draft: 0
 group: 4
 due_date: 2021-03-10
+slides:
+    - url: https://docs.google.com/presentation/d/1HhEElBSLJUsNBCi7l-LBcjpt8v-cAheLM1oJpTFe__Q/edit?usp=sharing
+      title: "AI Rights & Principles"
 readings:
     - url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3518482
       title: "Principled Artificial Intelligence: Mapping Consensus in Ethical and Rights-Based Approaches to Principles for AI"
@@ -21,5 +24,3 @@ readings:
       date: Jan 2020
       optional: 1
 ---
-
-TBD
